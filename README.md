@@ -32,11 +32,11 @@ CREATE TABLE `etudiant` (
 );
 
 CREATE TABLE `evaluation` (
-    `id` INT AUTO_INCREMENT PRIMARY KEY,
     `enseignant` INT NOT NULL,
     `etudiant` INT NOT NULL,
     `note` DOUBLE NOT NULL,
     `commentaire` VARCHAR(255),
+    PRIMARY KEY (enseignant, etudiant),
     FOREIGN KEY (enseignant) REFERENCES Enseignant(id),
     FOREIGN KEY (etudiant) REFERENCES Etudiant(id)
 );
