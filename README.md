@@ -9,11 +9,6 @@ Ce projet est un système de gestion des évaluations des enseignants développ�
 - Permettre des analyses statistiques avec des outils comme les graphiques
 - Assurer la confidentialité des données et l'intégrité du processus
 ## Structure de la Base de Données
-### Tables
-
-- Enseignant (id, nom, prénom, matière)
-- Etudiant (id, nom, prénom, email)
-- Evaluation (id, enseignant, etudiant, note, commentaire)
 
 ### Requêtes SQL pour créer les tables:
 ```sql
