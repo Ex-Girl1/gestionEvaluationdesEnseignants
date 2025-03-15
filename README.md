@@ -27,13 +27,13 @@ CREATE TABLE `etudiant` (
 );
 
 CREATE TABLE `evaluation` (
-    `enseignant` INT NOT NULL,
-    `etudiant` INT NOT NULL,
+    `enseignant_id` INT NOT NULL,
+    `etudiant_id` INT NOT NULL,
     `note` DOUBLE NOT NULL,
     `commentaire` VARCHAR(255),
-    PRIMARY KEY (enseignant, etudiant),
-    FOREIGN KEY (enseignant) REFERENCES Enseignant(id),
-    FOREIGN KEY (etudiant) REFERENCES Etudiant(id)
+    PRIMARY KEY (enseignant_id, etudiant_id),
+    FOREIGN KEY (enseignant_id) REFERENCES Enseignant(id),
+    FOREIGN KEY (etudiant_id) REFERENCES Etudiant(id)
 );
 ```
 ## Structure du code Java
