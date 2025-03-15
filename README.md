@@ -2,7 +2,12 @@
  
 ## Description
 Ce projet est un système de gestion des évaluations des enseignants développé en Java avec une base de données SQL. Il permet de gérer les enseignants, les étudiants et les évaluations faites par les étudiants concernant les enseignants.
-
+## Objectifs
+ - Améliorer la qualité de l'enseignement en permettant aux étudiants de donner leur feedback
+- Faciliter la prise de décision pour les responsables académiques grâce aux données quantitatives et qualitatives
+- Centraliser les données des enseignants, étudiants et évaluations dans un système unifié
+- Permettre des analyses statistiques avec des outils comme les graphiques
+- Assurer la confidentialité des données et l'intégrité du processus
 ## Structure de la Base de Données
 ### Tables
 
